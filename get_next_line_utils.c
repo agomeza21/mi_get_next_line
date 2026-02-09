@@ -6,7 +6,7 @@
 /*   By: agomez-a <agomez-a@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/05 13:32:45 by agomez-a          #+#    #+#             */
-/*   Updated: 2026/02/06 17:36:45 by agomez-a         ###   ########.fr       */
+/*   Updated: 2026/02/09 13:02:18 by agomez-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 char	*create_simple_line(char *pos, char *storage)
 {
 	char	*line;
-	
+
 	line = malloc((pos - storage) + 2);
 	if (!line)
 		return (NULL);

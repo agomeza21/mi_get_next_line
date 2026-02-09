@@ -6,18 +6,20 @@
 /*   By: agomez-a <agomez-a@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/05 13:39:49 by agomez-a          #+#    #+#             */
-/*   Updated: 2026/02/09 12:40:22 by agomez-a         ###   ########.fr       */
+/*   Updated: 2026/02/09 13:01:30 by agomez-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
- #ifndef BUFFER_SIZE
-  # define BUFFER_SIZE 42
- #endif
- #ifndef OPEN_MAX
-  # define OPEN_MAX 1024
- #endif
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+
+# ifndef OPEN_MAX
+#  define OPEN_MAX 1024
+# endif
 
 # include <unistd.h>
 # include <stdlib.h>
@@ -27,7 +29,7 @@
 char	*get_next_line(int fd);
 size_t	ft_strlen(const char *s);
 char	*create_tmp(char *storage);
-char	*fill_storage(int fd, char * storage);
+char	*fill_storage(int fd, char *storage);
 char	*ft_strchr(const char *s, int c);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 char	*create_simple_line(char *pos, char *storage);

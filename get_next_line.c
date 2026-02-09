@@ -6,7 +6,7 @@
 /*   By: agomez-a <agomez-a@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/05 13:32:42 by agomez-a          #+#    #+#             */
-/*   Updated: 2026/02/06 17:48:40 by agomez-a         ###   ########.fr       */
+/*   Updated: 2026/02/09 13:01:44 by agomez-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ char	*create_tmp(char *storage)
 	return (tmp);
 }
 
-char	*fill_storage(int fd, char * storage)
+char	*fill_storage(int fd, char *storage)
 {
 	int			bytes_leidos;
 	char		buffer[BUFFER_SIZE + 1];
